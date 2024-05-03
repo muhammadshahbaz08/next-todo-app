@@ -29,9 +29,8 @@ const getData = async () => {
 
 const TodoList = async () => {
   const res: Todo[] = await getData();
-
   return (
-    <div className="max-h-[350px] overflow-auto mb-4 p-4  scrollbar scrollbar-thumb-cyan-50 scrollbar-track-gray-400  ">
+    <div className="max-h-[350px] overflow-auto mb-4 p-4 scrollbar scrollbar-thumb-cyan-50 scrollbar-track-gray-400">
       {res.map((item) => {
         return (
           <div
