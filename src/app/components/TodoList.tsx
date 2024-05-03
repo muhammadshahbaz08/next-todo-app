@@ -4,7 +4,11 @@ import DeleteTodo from "./DelteTodo";
 const getData = async () => {
   try {
     const res = await fetch(
-      "https://next-todo-app-nine-nu.vercel.app/api/todo",
+      `${
+        process.env.NODE_ENV == "development"
+          ? "http://localhost:3000/"
+          : "https://next-todo-app-nine-nu.vercel.app/"
+      }/api/todo`,
       {
         method: "GET",
         cache: "no-store",
