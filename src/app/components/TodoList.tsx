@@ -10,6 +10,7 @@ const getData = async () => {
           : "https://next-todo-app-nine-nu.vercel.app/"
       }/api/todo`,
       {
+        method: "GET",
         cache: "no-cache",
         headers: {
           "Content-Type": "application/json",
