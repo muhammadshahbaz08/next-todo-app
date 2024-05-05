@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { ToastContainer } from "react-toastify";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -28,20 +27,18 @@ const DeleteTodo = ({ todoId }: { todoId: number }) => {
     }
   };
   return (
-    <>
-      <button
-        type="button"
-        className="ml-auto"
-        onClick={() => handleDelte(todoId)}
-      >
-        <Image
-          src={"/delete-icon.png"}
-          width={25}
-          height={25}
-          alt="delete-icon"
-        />
-      </button>
-    </>
+    <button
+      type="button"
+      className="ml-auto"
+      onClick={() => handleDelte(todoId)}
+    >
+      <Image
+        src={"/delete-icon.png"}
+        width={25}
+        height={25}
+        alt="delete-icon"
+      />
+    </button>
   );
 };
 
