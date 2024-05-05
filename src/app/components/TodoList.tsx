@@ -41,7 +41,7 @@ const TodoList = async () => {
             <div className="h-3 w-3 bg-cyan-500 rounded-full"></div>
             {/* Task Detail's */}
             <p className="text-lg font-medium ">{item.task}</p>
-            {/* Delete Button-Component*/}
+            {/* Delete Button*/}
             <DeleteTodo todoId={item.id} />
           </div>
         );
