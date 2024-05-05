@@ -20,15 +20,12 @@ A Todo App built with Next.js & Vercel PostgreSQL.
 - Vercel: Deployment platform.
 - Git & Github: Version Control.
 
-## DEMO
+## VIDEO DEMO
 
- <h4 align="center"> 
-    [![Watch the video](https://img.youtube.com/vi/dqJr7lnJcGs/maxresdefault.jpg)](https://www.youtube.com/watch?v=dqJr7lnJcGs)
-    <br>
-    <br>   
-    <br>
+  <h4 align="center">
+  <a href="https://www.youtube.com/watch?v=dqJr7lnJcGs" target="_blank"><img src="https://img.youtube.com/vi/dqJr7lnJcGs/maxresdefault.jpg" />
   </h4>
 
 ## Deployment
 
-Deployed on Vercel: [View Live](https://next-todo-app-nine-nu.vercel.app/)
+Deployed on Vercel: ![View Live](https://next-todo-app-nine-nu.vercel.app/)
