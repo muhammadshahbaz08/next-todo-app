@@ -22,7 +22,7 @@ A Todo App built with Next.js & Vercel PostgreSQL.
 
 ## VIDEO DEMO
 
-  <h2 align="center">📺 Click the Image Below ⬇️ to Watch the Demo Video </h2>  
+  <h2 align="center">Click the Image Below ⬇️ to Watch 📺 the Demo Video </h2>  
   <h4 align="center">
   <a href="https://www.youtube.com/watch?v=dqJr7lnJcGs" target="_blank"><img src="https://img.youtube.com/vi/dqJr7lnJcGs/maxresdefault.jpg" /></a>
   </h4>
